@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Firebase</title>
+</head>
+<body align = "center">
+
+	Id:<input type="text" id="Id" name=""><br>
+	Name:<input type="text" id="f_name" name=""><br>
+	last name:<input type="text" id="l_name" name=""><br>
+	age:<input type="number" id="age" name=""><br>
+
+	<br><br>
+	<button id="Insert">insert</button>
+	<button id="Delete">delete</button>
+	<button id="Update">update</button>
+
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-database.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-analytics.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyAKqfmLnOFyFjEG0GaXanIaWNluWrGe7oU",
+    authDomain: "project2-eb8bd.firebaseapp.com",
+    projectId: "project2-eb8bd",
+    storageBucket: "project2-eb8bd.appspot.com",
+    messagingSenderId: "888099309626",
+    appId: "1:888099309626:web:55796e172bb11873220d03"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+<script src="script.js"></script>
+
+</body>
+</html>
